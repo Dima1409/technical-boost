@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/technical-boost/static/css/main.073c9b0a.css",
+    "main.js": "/technical-boost/static/js/main.2238a30c.js",
+    "static/js/787.ccbe90b1.chunk.js": "/technical-boost/static/js/787.ccbe90b1.chunk.js",
+    "static/media/logo.svg": "/technical-boost/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/technical-boost/index.html",
+    "main.073c9b0a.css.map": "/technical-boost/static/css/main.073c9b0a.css.map",
+    "main.2238a30c.js.map": "/technical-boost/static/js/main.2238a30c.js.map",
+    "787.ccbe90b1.chunk.js.map": "/technical-boost/static/js/787.ccbe90b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2238a30c.js"
+  ]
+}
