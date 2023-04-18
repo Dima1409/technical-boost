@@ -77,21 +77,21 @@ const UsersList = () => {
             <div>loading...</div>
           ) : (
             <>
-            {currentPage === 1 ? null : <ButtonPage
-                onClick={handleStartPage}
-                style={{ padding: "6px", width: "70px" }}
-              >
-                start
-              </ButtonPage>}
-              
+              {currentPage === 1 ? null : (
+                <ButtonPage
+                  onClick={handleStartPage}
+                  style={{ padding: "6px", width: "70px" }}
+                >
+                  start
+                </ButtonPage>
+              )}
 
               {currentPage === 1 ? null : (
                 <ButtonPage onClick={handlePagePrev}>prev page</ButtonPage>
               )}
-              {totalUsers !== 0 &&
-                totalUsers / pageLimit > currentPage && (
-                  <ButtonPage onClick={handlePageNext}>next page</ButtonPage>
-                )}
+              {totalUsers !== 0 && totalUsers / pageLimit > currentPage && (
+                <ButtonPage onClick={handlePageNext}>next page</ButtonPage>
+              )}
               {currentPage === totalPages ? null : (
                 <ButtonPage
                   onClick={handleLastPage}

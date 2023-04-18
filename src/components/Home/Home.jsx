@@ -13,9 +13,7 @@ const Home = () => {
 
   return (
     <Container>
-     
-        <Text>{randomPhrase}</Text>
-      
+      <Text>{randomPhrase}</Text>
     </Container>
   );
 };

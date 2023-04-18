@@ -2,7 +2,6 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import formatNumber from "utils/formatNumber";
 import { editUser } from "redux/users/operations";
-// import { selectIsLoading } from "redux/users/selectors";
 import {
   Item,
   Logo,
@@ -18,7 +17,6 @@ import contactsImage from "assets/images/userContacts.svg";
 
 const UserCard = ({ id, tweets, avatar, followers, isFollow }) => {
   const dispatch = useDispatch();
-  // const loading = useSelector(selectIsLoading)
   const handleFollow = () => {
     const obj = {
       id,

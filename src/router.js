@@ -11,7 +11,7 @@ export const ROUTES = {
 const routes = [
   {
     path: ROUTES.HOME,
-    element: <Layout/>,
+    element: <Layout />,
     children: [
       {
         index: true,

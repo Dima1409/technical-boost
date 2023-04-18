@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 const fadeInAnimation = keyframes`
   from {
@@ -10,14 +10,14 @@ const fadeInAnimation = keyframes`
 `;
 
 const Text = styled.p`
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 40px;
-font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 28px;
   opacity: 0;
   animation: ${fadeInAnimation} 2s ease-in-out forwards;
   text-shadow: 0 0 40px #471ca9;
 `;
 
-export {Text};
+export { Text };
