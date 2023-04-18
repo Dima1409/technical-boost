@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/technical-boost/static/css/main.cae3ebf2.css",
-    "main.js": "/technical-boost/static/js/main.81328f1d.js",
+    "main.js": "/technical-boost/static/js/main.29bdf564.js",
     "static/media/userContacts.svg": "/technical-boost/static/media/userContacts.64c4632bf940789b4fdb5fb7ef0c0ba5.svg",
     "static/media/logo-goit.svg": "/technical-boost/static/media/logo-goit.5c186eefb111b9ff6734a26440c2a05a.svg",
     "index.html": "/technical-boost/index.html",
     "main.cae3ebf2.css.map": "/technical-boost/static/css/main.cae3ebf2.css.map",
-    "main.81328f1d.js.map": "/technical-boost/static/js/main.81328f1d.js.map"
+    "main.29bdf564.js.map": "/technical-boost/static/js/main.29bdf564.js.map"
   },
   "entrypoints": [
     "static/css/main.cae3ebf2.css",
-    "static/js/main.81328f1d.js"
+    "static/js/main.29bdf564.js"
   ]
 }
