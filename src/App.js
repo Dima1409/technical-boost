@@ -1,11 +1,10 @@
-import Container from "components/Container";
-import UsersList from "components/UserList";
+import router from "./router";
+import { RouterProvider } from "react-router";
 
 function App() {
+
   return (
-    <Container>
-      <UsersList/>
-    </Container>
+    <RouterProvider router={router}/>
   );
 }
 
